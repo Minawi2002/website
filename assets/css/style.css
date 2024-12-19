@@ -1223,3 +1223,33 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.experience-detail {
+  padding-top: 100px; /* Adjust based on your navbar height */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.experience-detail h2 {
+  color: #ff6700; /* A bright orange color */
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.experience-detail p, .experience-detail ul li {
+  font-size: 1.2rem; /* Increase font size */
+  line-height: 1.6; /* Adjust line spacing */
+  color: #444; /* A dark gray for readability */
+}
+
+.experience-detail ul li {
+  margin-bottom: 10px; /* Add space between list items */
+}
+
+.experience-detail .container {
+  background-color: #f9f9f9; /* Add a subtle background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
