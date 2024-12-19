@@ -10,11 +10,11 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #121212;
+            color: #e0e0e0;
         }
         header {
-            background: #007BFF;
+            background: #1f1f1f;
             color: white;
             padding: 20px 0;
             text-align: center;
@@ -22,11 +22,17 @@
         header h1 {
             margin: 0;
         }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
         .container {
             max-width: 1100px;
             margin: auto;
             overflow: hidden;
-            padding: 0 20px;
+            padding: 20px;
         }
         section {
             margin: 20px 0;
@@ -45,7 +51,7 @@
         footer {
             text-align: center;
             padding: 10px 0;
-            background: #333;
+            background: #1f1f1f;
             color: white;
         }
         a {
@@ -55,15 +61,35 @@
         a:hover {
             text-decoration: underline;
         }
+        .contact-icons {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .contact-icons a {
+            color: #007BFF;
+            font-size: 1.5em;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="profile.jpg" alt="Mahmoud El Minawi">
         <h1>Mahmoud El Minawi</h1>
-        <p>Zurich, Switzerland | <a href="mailto:mahmoudelminawi2@hotmail.com">mahmoudelminawi2@hotmail.com</a> | +41 78 303 79 38</p>
+        <p>Zurich, Switzerland | <a href="mailto:mahmoudelminawi2@hotmail.com">Contact Me</a> | +41 78 303 79 38</p>
+        <div class="contact-icons">
+            <a href="https://github.com/Minawi2002" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
     </header>
 
     <div class="container">
+        <section>
+            <h2>Biography</h2>
+            <p>I am a Master's student at ETH Zurich specializing in Electrical Engineering and Information Technology with a focus on Machine Learning and Robotics. My academic and professional experiences have equipped me with technical expertise in Python, Deep Learning, and Software Engineering. I am passionate about applying innovative solutions to real-world challenges.</p>
+        </section>
+
         <section>
             <h2>Education</h2>
             <ul>
