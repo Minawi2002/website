@@ -1,22 +1,20 @@
 [
   {
     "name": "UNO Software Engineering Project",
-    "desc": "Developed an UNO game from scratch as a team project. The focus was on software engineering principles, including modular design and usability testing.",
-    "image": "uno_project",
+    "desc": "Developed an UNO game from scratch as a team project, focusing on software engineering principles such as modular design and usability testing.",
+    "image": "UNO.jpg",
     "category": "software",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/Minawi2002/Projects/tree/main/UNO_GAME"
     }
   },
   {
     "name": "Computer Vision Projects",
-    "desc": "Implemented advanced computer vision techniques, including 3D reconstruction and image quality enhancement, utilizing Python and state-of-the-art libraries.",
-    "image": "computer_vision_projects",
+    "desc": "Implemented advanced computer vision techniques, including 3D reconstruction and image quality enhancement, using Python and state-of-the-art libraries.",
+    "image": "computervis.png",
     "category": "computervision",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/Minawi2002/Projects/tree/main/Computer%20Vison%20Mini%20projects"
     }
   }
 ]
